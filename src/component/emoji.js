@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../App.css";
-import { EmojiPicker } from "emoji-picker-react";
+import { Picker } from "emoji-picker-react";
 
 const EmojiSearch = () => {
   const [inputStr, setInputStr] = useState("");
@@ -25,7 +25,7 @@ const EmojiSearch = () => {
         onClick={() => setShowPicker((val) => !val)}
       />
       {showPicker && (
-        <EmojiPicker
+        <Picker
           pickerStyle={{ width: "100%" }}
           onEmojiClick={onEmojiClick}
         />
