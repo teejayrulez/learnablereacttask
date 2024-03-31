@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: aqua;
+}
+
+h1 {
+  font-size: 5rem;
+  color: orange;
+}
+
+.picker-container {
+  position: relative;
+  width: 100px;
+}
+.emoji-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 17px;
+  right: -340px;
+  background-color: orange;
+  border-radius: 50%;
+}
+.input-style {
+  padding: 1rem 10rem 1rem 5rem;
+  align-self: center;
+  margin: 0 0 10px 160px;
+  width: calc(100% - 40px);
+  border-radius: 3px;
+  border: 1px solid #999;
+}
